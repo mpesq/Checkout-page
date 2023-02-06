@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout-page</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <form action="" method="">
+        <div class="left">
+            
+            <h2>Contact information</h2>
+            <label for="email">
+                <span class="input_title">E-mail</span>
+                <div>
+                    <span class="material-symbols-rounded">mail</span>
+                    <input id="email" name="email" type="email" placeholder="Enter your email...">
+                </div>
+            </label>
+            <label for="phone">
+                <span class="input_title">Phone</span>
+                <div>
+                    <span class="material-symbols-rounded">call</span>
+                    <input id="phone" name="phone" type="tel" placeholder="Enter your phone...">
+                </div>
+            </label>
+            <h2>Shipping address</h2>
+            <label for="fullname">
+                <span class="input_title">Full name</span>
+                <div>
+                    <span class="material-symbols-rounded">account_circle</span>
+                    <input id="fullname" name="fullname" type="text" placeholder="Enter your name...">
+                </div>
+            </label>
+            <label for="adress">
+                <span class="input_title">Address</span>
+                <div>
+                    <span class="material-symbols-rounded">home</span>
+                    <input id="address" name="address" placeholder="Your address...">
+                </div>
+            </label>
+            <label for="city">
+                <span class="input_title">City</span>
+                <div>
+                    <span class="material-symbols-rounded">location_city</span>
+                    <input id="city" name="city" placeholder="Your city...">
+                </div>
+            </label>
+            <div class="country_cp">
+                <label for="country">
+                    <span class="input_title">Country</span>
+                    <div>
+                        <span class="material-symbols-rounded">public</span>
+                        <select name="country" id="country">
+                            <option disabled selected>Your country...</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                            <option value="Spain">Spain</option>
+                            <option value="France">France</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Poland">Poland</option>
+                        </select>
+                    </div>
+                </label>
+                <label for="cp">
+                    <span class="input_title">Postal code</span>
+                    <div>
+                        <span class="material-symbols-rounded">markunread_mailbox</span>
+                        <input id="cp" name="cp" type="number" placeholder="Your postal code...">
+                    </div>
+                </label>
+            </div>
+            <label for="checkbox" class="checkbox-label">
+                <input type="checkbox" id="checkbox">
+                <span>Save this information for next time</span>
+            </label>
+            <button type="submit" class="submit-btn">Continue</button>
+        </div>
+        <div class="right">
+            <div class="jumbo">
+                <div class="product">
+                    <img src="./assets/photo1.png" alt="photo1">
+                    <div class="description">
+                        <h3>Vintage Backbag</h3>
+                        <div class="prices">
+                            <span class="now">$54.99</span><span class="before">$94.99</span>
+                            
+                        </div>
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assets/photo2.png" alt="photo2">
+                    <div class="description">
+                        <h3>Levi Shoes</h3>
+                        <div class="prices">
+                            <span class="now">$74.99</span><span class="before">$124.99</span>
+                        </div>
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="line_up"></div>
+                <div class="shipping">
+                    <span class="shipping_text">Shipping</span><span class="shipping_price">$19</span>
+                </div>
+                <div class="line_down"></div>
+                <div class="total">
+                    <span class="total_text">Total</span><span class="total_price">$148.98</span>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
